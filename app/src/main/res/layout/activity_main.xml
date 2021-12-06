@@ -10,6 +10,7 @@
     tools:context=".MainActivity">
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/btnViewIcones"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -17,28 +18,45 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="330dp"
-        android:layout_height="228dp"
-        app:srcCompat="@mipmap/mainphoto"
-        tools:layout_editor_absoluteX="40dp"
-        tools:layout_editor_absoluteY="202dp" />
-
-    <Button
-        android:id="@+id/button4"
+        android:id="@+id/imvAnimals"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ENTRAR"
+        android:scaleType="center"
+        app:layout_constraintBottom_toTopOf="@+id/btnViewIcones"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/mainphoto" />
+
+    <Button
+        android:id="@+id/btnCadastrar"
+        android:layout_width="130dp"
+        android:layout_height="52dp"
+        android:background="#871717"
+        android:text="CADASTRAR"
+        android:textColor="#FFFFFF"
         app:iconTint="#612323"
-        tools:layout_editor_absoluteX="100dp"
-        tools:layout_editor_absoluteY="55dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.814"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.096" />
 
     <Button
-        android:id="@+id/button5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="237dp"
-        tools:layout_editor_absoluteY="55dp" />
+        android:id="@+id/btnEntrar"
+        android:layout_width="127dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="32dp"
+        android:background="#871717"
+        android:text="ENTRAR"
+        android:textColor="#FFFFFF"
+        app:iconTint="#612323"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnCadastrar"
+        app:layout_constraintHorizontal_bias="0.219"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.096" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

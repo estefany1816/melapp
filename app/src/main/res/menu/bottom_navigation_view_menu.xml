@@ -3,14 +3,17 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
+        android:id="@+id/infogerais"
         android:icon="@mipmap/oficialbook"
         android:title="Informações Gerais"
         app:showAsAction="ifRoom" />
     <item
+        android:id="@+id/sistemaAdocao"
         android:icon="@mipmap/animal"
         android:title="Sistema de Adoção"
         app:showAsAction="ifRoom" />
     <item
+        android:id="@+id/testeAuxiliar"
         android:icon="@mipmap/paw"
         android:title="Teste Auxiliar"
         app:showAsAction="ifRoom" />
