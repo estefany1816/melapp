@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F2CCFF" >
+    android:background="#F2CCFF">
 
     <EditText
-        android:id="@+id/etEmail"
+        android:id="@+id/etEmailLogin"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -20,10 +20,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/imvAnimalLogin" />
 
     <EditText
-        android:id="@+id/etSenha"
+        android:id="@+id/etSenhaLogin"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -36,44 +36,49 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etEmail" />
+        app:layout_constraintTop_toBottomOf="@+id/etEmailLogin" />
 
     <Button
         android:id="@+id/btnEntrarLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
         android:text="Entrar"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnCadastrarLogin"
+        app:layout_constraintHorizontal_bias="0.477"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etSenha"
+        app:layout_constraintTop_toBottomOf="@+id/etSenhaLogin"
+        app:layout_constraintVertical_bias="0.638"
         tools:text="Entrar" />
 
     <Button
-        android:id="@+id/btnVoltarLogin"
+        android:id="@+id/btnCadastrarLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginEnd="60dp"
         android:text="Cadastrar"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnEntrarLogin" />
+        app:layout_constraintTop_toBottomOf="@+id/etSenhaLogin"
+        app:layout_constraintVertical_bias="0.638" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/imvAnimalLogin"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/tvLogoLogin"
         app:srcCompat="@drawable/mainphoto" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/tvLogoLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
         android:text="MEL- ADOÇÃO E CUIDADOS"
+        android:textColor="#9C27B0"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

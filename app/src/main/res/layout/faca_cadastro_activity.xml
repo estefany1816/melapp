@@ -11,25 +11,27 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="232dp"
+        android:layout_marginTop="80dp"
         android:layout_marginEnd="16dp"
+        android:background="@drawable/edit_text_bg"
         android:ems="10"
-        android:hint="Insira Nome Completo"
+        android:hint="Insira seu nome Completo"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/tvLogoCadastro" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/etNomeUsuarioCadastro"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
+        android:background="@drawable/edit_text_bg"
         android:ems="10"
-        android:hint="Insira nome de Usuário"
+        android:hint="Insira um nome de Usuário"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -43,6 +45,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
+        android:background="@drawable/edit_text_bg"
         android:ems="10"
         android:hint="Insira sua Senha"
         android:inputType="textPassword"
@@ -60,13 +63,14 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
+        android:background="@drawable/edit_text_bg"
         android:ems="10"
         android:hint="Insira seu Email"
         android:inputType="textEmailAddress"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
+        app:layout_constraintTop_toBottomOf="@+id/etNomeUsuarioCadastro" />
 
     <Button
         android:id="@+id/btnCadastrarCadastro"
@@ -75,20 +79,32 @@
         android:text="Cadastrar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/btnVoltarCadastro"
-        app:layout_constraintHorizontal_bias="0.467"
+        app:layout_constraintHorizontal_bias="0.333"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etSenhaCadastro"
-        app:layout_constraintVertical_bias="0.477" />
+        app:layout_constraintVertical_bias="0.697" />
 
     <Button
         android:id="@+id/btnVoltarCadastro"
-        android:layout_width="118dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="60dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="52dp"
         android:text="Voltar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etSenhaCadastro"
-        app:layout_constraintVertical_bias="0.426" />
+        app:layout_constraintVertical_bias="0.697" />
+
+    <TextView
+        android:id="@+id/tvLogoCadastro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="MEL - ADOÇÃO E CUIDADOS"
+        android:textColor="#9C27B0"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
