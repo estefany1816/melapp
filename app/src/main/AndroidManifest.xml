@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.melapp" >
+    package="com.example.melapp">
 
     <application
         android:allowBackup="true"
@@ -8,14 +8,32 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Melapp" >
+        android:theme="@style/Theme.Melapp">
+        <activity
+            android:name=".SistemaAdocaoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".InfGeraisHamsterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".InfGeraisCalopsitaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".InfGeraisGatoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".InfGeraisCachorroActivity"
+            android:exported="false" />
+        <activity
+            android:name=".InfGeraisActivity"
+            android:exported="false" />
         <activity
             android:name=".Faca_CadastroActivity"
             android:exported="true" />
         <activity
             android:name=".LoginActivity"
             android:exported="true"
-            android:theme="@style/Theme.MelappNoActionBar" >
+            android:theme="@style/Theme.MelappNoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -24,8 +42,7 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="false" >
-        </activity>
+            android:exported="false" />
     </application>
 
 </manifest>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2CCFF"
+    tools:context=".InfGeraisActivity">
+
+    <TextView
+        android:id="@+id/tvInfoGeraisLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="INFORMAÇÕES GERAIS "
+        android:textColor="#9C27B0"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imvCachorroInfoGerais"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvInfoGeraisLogo"
+        app:srcCompat="@drawable/dog" />
+
+    <ImageView
+        android:id="@+id/imvGatoInfoGerais"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imvHamsterInfoGerais"
+        app:layout_constraintVertical_bias="0.272"
+        app:srcCompat="@mipmap/cat" />
+
+    <ImageView
+        android:id="@+id/imvCalopsitaInfoGerais"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imvCachorroInfoGerais"
+        app:srcCompat="@mipmap/calopsita" />
+
+    <ImageView
+        android:id="@+id/imvHamsterInfoGerais"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imvCalopsitaInfoGerais"
+        app:srcCompat="@mipmap/hamster" />
+
+    <Button
+        android:id="@+id/btnCachorroInfoGerais"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="32dp"
+        android:text="Cachorro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imvCachorroInfoGerais"
+        app:layout_constraintTop_toBottomOf="@+id/tvInfoGeraisLogo" />
+
+    <Button
+        android:id="@+id/btnGatoInfoGerais"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GATO"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.148"
+        app:layout_constraintStart_toEndOf="@+id/imvGatoInfoGerais"
+        app:layout_constraintTop_toBottomOf="@+id/btnHamsterInfoGerais"
+        app:layout_constraintVertical_bias="0.464" />
+
+    <Button
+        android:id="@+id/btnCalopsitaInfoGerais"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="Calopsita"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.172"
+        app:layout_constraintStart_toEndOf="@+id/imvCalopsitaInfoGerais"
+        app:layout_constraintTop_toBottomOf="@+id/btnCachorroInfoGerais" />
+
+    <Button
+        android:id="@+id/btnHamsterInfoGerais"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="32dp"
+        android:text="Hamster"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.193"
+        app:layout_constraintStart_toEndOf="@+id/imvHamsterInfoGerais"
+        app:layout_constraintTop_toBottomOf="@+id/btnCalopsitaInfoGerais" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

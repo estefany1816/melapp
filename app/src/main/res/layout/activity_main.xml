@@ -18,45 +18,15 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
-        android:id="@+id/imvAnimals"
-        android:layout_width="wrap_content"
+        android:id="@+id/imvAnimaisInicio"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:scaleType="center"
         app:layout_constraintBottom_toTopOf="@+id/btnViewIcones"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@mipmap/mainphoto" />
-
-    <Button
-        android:id="@+id/btnCadastrar"
-        android:layout_width="130dp"
-        android:layout_height="52dp"
-        android:background="#871717"
-        android:text="CADASTRAR"
-        android:textColor="#FFFFFF"
-        app:iconTint="#612323"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.814"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.096" />
-
-    <Button
-        android:id="@+id/btnEntrar"
-        android:layout_width="127dp"
-        android:layout_height="51dp"
-        android:layout_marginStart="32dp"
-        android:background="#871717"
-        android:text="ENTRAR"
-        android:textColor="#FFFFFF"
-        app:iconTint="#612323"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/btnCadastrar"
-        app:layout_constraintHorizontal_bias="0.219"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.096" />
+        app:layout_constraintVertical_bias="0.412"
+        app:srcCompat="@mipmap/animalinicio" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
