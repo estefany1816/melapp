@@ -15,6 +15,7 @@
         android:text="Sistema de Adoção"
         android:textColor="#9C27B0"
         android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.666"
         app:layout_constraintStart_toStartOf="parent"
@@ -24,7 +25,7 @@
         android:id="@+id/imvImagemSistemaAdocao"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="48dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -32,38 +33,24 @@
         app:srcCompat="@mipmap/animais" />
 
     <Button
-        android:id="@+id/btnVoltarSistemaAdocao"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
-        android:text="Voltar"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
         android:id="@+id/btnAdotarSistemaAdocao"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="64dp"
-        android:layout_marginTop="76dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="184dp"
         android:text="Adotar"
-        app:layout_constraintBottom_toTopOf="@+id/btnVoltarSistemaAdocao"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imvImagemSistemaAdocao"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@+id/imvImagemSistemaAdocao" />
 
     <Button
         android:id="@+id/btnDoeSistemaAdocao"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="76dp"
+        android:layout_marginTop="184dp"
         android:text="Doe"
         app:iconTint="#FFFFFFFF"
-        app:layout_constraintBottom_toTopOf="@+id/btnVoltarSistemaAdocao"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.642"
+        app:layout_constraintHorizontal_bias="0.674"
         app:layout_constraintStart_toEndOf="@+id/btnAdotarSistemaAdocao"
-        app:layout_constraintTop_toBottomOf="@+id/imvImagemSistemaAdocao"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@+id/imvImagemSistemaAdocao" />
 </androidx.constraintlayout.widget.ConstraintLayout>
