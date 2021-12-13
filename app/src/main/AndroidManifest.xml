@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Melapp">
         <activity
+            android:name=".AdoteSaActivity"
+            android:exported="false" />
+        <activity
             android:name=".SistemaAdocaoActivity"
             android:exported="false" />
         <activity

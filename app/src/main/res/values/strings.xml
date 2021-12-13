@@ -1,3 +1,47 @@
 <resources>
     <string name="app_name"> MEL ADOÇÃO E CUIDADOS</string>
+    <string-array name="dlg_filtros_categoria">
+        <item>Categoria</item>
+        <item>Cachorro</item>
+        <item>Gato</item>
+        <item>Calopsita</item>
+        <item>Hamster</item>
+    </string-array>
+
+    <string-array name="dlg_filtros_genero">
+        <item>Gênero</item>
+        <item>Macho</item>
+        <item>Fêmea</item>
+     </string-array>
+
+
+    <string-array name="dlg_filtros_localizacao">
+        <item>Município</item>
+        <item>Cariacica</item>
+        <item>Fundão</item>
+        <item>Guarapari</item>
+        <item>Serra</item>
+        <item>Viana</item>
+        <item>Vila Velha</item>
+        <item>Vitória</item>
+    </string-array>
+
+
+    <string-array name="dlg_filtros_idade">
+        <item>Idade</item>
+        <item>Menos de 1ano</item>
+        <item>1 ano</item>
+        <item>2 anos</item>
+        <item>3 anos</item>
+        <item>4 anos</item>
+        <item>5 anos</item>
+        <item>6 anos</item>
+        <item>7 anos</item>
+        <item>8 anos</item>
+        <item>9 anos</item>
+        <item>10 anos</item>
+        <item>+10 anos</item>
+    </string-array>
+
+
 </resources>
