@@ -10,6 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Melapp">
         <activity
+            android:name=".ResultadoTesteAuxiliarActivity"
+            android:exported="true" />
+        <activity
+            android:name=".TesteAuxiliarActivity"
+            android:exported="true" />
+        <activity
+            android:name=".VisualizarFotoActivity"
+            android:exported="true" />
+        <activity
+            android:name=".CadastrarAnimalActivity"
+            android:exported="true" />
+        <activity
+            android:name=".PetJaCadastradoActivity"
+            android:exported="true" />
+        <activity
             android:name=".DoeSaActivity"
             android:exported="true" />
         <activity

@@ -20,7 +20,7 @@
         app:srcCompat="@drawable/dog" />
 
     <TextView
-        android:id="@+id/categoriaAdote"
+        android:id="@+id/tvCategoriaAdote"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -29,22 +29,25 @@
         android:text="Categoria"
         android:textColor="#000000"
         android:textSize="18sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/imvAnimalAdote"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/descricaoAdote"
+        android:id="@+id/tvDescricaoAdote"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
-        android:text="Gênero;Idade;Localização;"
+        android:text="Gênero;Idade;Localização."
+        android:textColor="#000000"
+        android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imvAnimalAdote"
-        app:layout_constraintTop_toBottomOf="@+id/categoriaAdote" />
+        app:layout_constraintTop_toBottomOf="@+id/tvCategoriaAdote" />
 </androidx.constraintlayout.widget.ConstraintLayout>

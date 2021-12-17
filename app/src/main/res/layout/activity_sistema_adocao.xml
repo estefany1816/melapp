@@ -11,7 +11,9 @@
         android:id="@+id/tvSistemaAdocao"
         android:layout_width="234dp"
         android:layout_height="38dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
         android:text="Sistema de Adoção"
         android:textColor="#9C27B0"
         android:textSize="20sp"
@@ -21,36 +23,43 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/imvImagemSistemaAdocao"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="48dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvSistemaAdocao"
-        app:srcCompat="@mipmap/animais" />
-
     <Button
         android:id="@+id/btnAdotarSistemaAdocao"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="48dp"
-        android:layout_marginTop="184dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="128dp"
         android:text="Adotar"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imvImagemSistemaAdocao" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.121" />
 
     <Button
         android:id="@+id/btnDoeSistemaAdocao"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="184dp"
+        android:layout_marginTop="132dp"
+        android:layout_marginEnd="64dp"
         android:text="Doe"
         app:iconTint="#FFFFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.674"
+        app:layout_constraintHorizontal_bias="0.95"
         app:layout_constraintStart_toEndOf="@+id/btnAdotarSistemaAdocao"
-        app:layout_constraintTop_toBottomOf="@+id/imvImagemSistemaAdocao" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.092" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvSistemaAdocao"
+        app:srcCompat="@mipmap/caesgatos" />
 </androidx.constraintlayout.widget.ConstraintLayout>
