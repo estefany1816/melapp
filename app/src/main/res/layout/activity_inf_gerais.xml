@@ -24,91 +24,77 @@
 
     <ImageView
         android:id="@+id/imvCachorroInfoGerais"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_width="117dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="52dp"
+        android:scaleType="fitCenter"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvInfoGeraisLogo"
         app:srcCompat="@drawable/dog" />
 
-    <ImageView
-        android:id="@+id/imvGatoInfoGerais"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_marginStart="8dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imvHamsterInfoGerais"
-        app:layout_constraintVertical_bias="0.272"
-        app:srcCompat="@mipmap/cat" />
-
-    <ImageView
-        android:id="@+id/imvCalopsitaInfoGerais"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="32dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imvCachorroInfoGerais"
-        app:srcCompat="@mipmap/calopsita" />
-
-    <ImageView
-        android:id="@+id/imvHamsterInfoGerais"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="32dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imvCalopsitaInfoGerais"
-        app:srcCompat="@mipmap/hamster" />
-
     <Button
         android:id="@+id/btnCachorroInfoGerais"
-        android:layout_width="wrap_content"
+        android:layout_width="140dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="32dp"
+        android:layout_marginStart="60dp"
         android:text="Cachorro"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/imvCachorroInfoGerais"
-        app:layout_constraintTop_toBottomOf="@+id/tvInfoGeraisLogo" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imvCachorroInfoGerais" />
 
     <Button
         android:id="@+id/btnGatoInfoGerais"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="140dp"
+        android:layout_height="48dp"
         android:text="GATO"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.148"
-        app:layout_constraintStart_toEndOf="@+id/imvGatoInfoGerais"
-        app:layout_constraintTop_toBottomOf="@+id/btnHamsterInfoGerais"
-        app:layout_constraintVertical_bias="0.464" />
+        tools:layout_editor_absoluteX="255dp"
+        tools:layout_editor_absoluteY="402dp" />
 
     <Button
         android:id="@+id/btnCalopsitaInfoGerais"
-        android:layout_width="wrap_content"
+        android:layout_width="140dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="80dp"
+        android:layout_marginEnd="36dp"
         android:text="Calopsita"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.172"
-        app:layout_constraintStart_toEndOf="@+id/imvCalopsitaInfoGerais"
-        app:layout_constraintTop_toBottomOf="@+id/btnCachorroInfoGerais" />
+        tools:layout_editor_absoluteY="207dp" />
 
     <Button
         android:id="@+id/btnHamsterInfoGerais"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="84dp"
-        android:layout_marginEnd="32dp"
         android:text="Hamster"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="403dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="116dp"
+        android:layout_height="77dp"
+        android:layout_marginEnd="60dp"
+        android:scaleType="fitCenter"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.193"
-        app:layout_constraintStart_toEndOf="@+id/imvHamsterInfoGerais"
-        app:layout_constraintTop_toBottomOf="@+id/btnCalopsitaInfoGerais" />
+        app:srcCompat="@drawable/calopsita"
+        tools:layout_editor_absoluteY="117dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/cat"
+        tools:layout_editor_absoluteX="266dp"
+        tools:layout_editor_absoluteY="287dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCachorroInfoGerais"
+        app:srcCompat="@drawable/hamster" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

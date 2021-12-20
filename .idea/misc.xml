@@ -4,6 +4,8 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/20191tiimi0054/AndroidStudioProjects/a/app/src/main/res/layout/activity_adote_sa.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/20191tiimi0054/AndroidStudioProjects/a/app/src/main/res/layout/activity_cadastrar_animal.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/20191tiimi0054/AndroidStudioProjects/a/app/src/main/res/layout/activity_doe_sa.xml" value="0.3484375" />
         <entry key="..\:/Users/20191tiimi0054/AndroidStudioProjects/a/app/src/main/res/layout/activity_inf_gerais.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/20191tiimi0054/AndroidStudioProjects/a/app/src/main/res/layout/activity_inf_gerais_cachorro.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/20191tiimi0054/AndroidStudioProjects/a/app/src/main/res/layout/activity_inf_gerais_calopsita.xml" value="0.33" />
@@ -11,10 +13,15 @@
         <entry key="..\:/Users/20191tiimi0054/AndroidStudioProjects/a/app/src/main/res/layout/activity_inf_gerais_hamster.xml" value="0.2921195652173913" />
         <entry key="..\:/Users/20191tiimi0054/AndroidStudioProjects/a/app/src/main/res/layout/activity_login.xml" value="0.2957427536231884" />
         <entry key="..\:/Users/20191tiimi0054/AndroidStudioProjects/a/app/src/main/res/layout/activity_main.xml" value="0.2921195652173913" />
+        <entry key="..\:/Users/20191tiimi0054/AndroidStudioProjects/a/app/src/main/res/layout/activity_pet_ja_cadastrado.xml" value="0.21" />
+        <entry key="..\:/Users/20191tiimi0054/AndroidStudioProjects/a/app/src/main/res/layout/activity_resultado_teste_auxiliar.xml" value="0.35104166666666664" />
         <entry key="..\:/Users/20191tiimi0054/AndroidStudioProjects/a/app/src/main/res/layout/activity_sistema_adocao.xml" value="0.2921195652173913" />
+        <entry key="..\:/Users/20191tiimi0054/AndroidStudioProjects/a/app/src/main/res/layout/activity_teste_auxiliar.xml" value="0.28940217391304346" />
+        <entry key="..\:/Users/20191tiimi0054/AndroidStudioProjects/a/app/src/main/res/layout/activity_visualizar_foto.xml" value="0.3484375" />
         <entry key="..\:/Users/20191tiimi0054/AndroidStudioProjects/a/app/src/main/res/layout/dlg_filtros.xml" value="0.2957427536231884" />
         <entry key="..\:/Users/20191tiimi0054/AndroidStudioProjects/a/app/src/main/res/layout/faca_cadastro_activity.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/20191tiimi0054/AndroidStudioProjects/a/app/src/main/res/layout/item_adote.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/20191tiimi0054/AndroidStudioProjects/a/app/src/main/res/layout/item_petcadastrado.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/20191tiimi0054/AndroidStudioProjects/a/app/src/main/res/menu/bottom_navigation_view_menu.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/20191tiimi0054/AndroidStudioProjects/melapp/app/src/main/res/drawable/edit_text_bg.xml" value="0.3671875" />
         <entry key="..\:/Users/20191tiimi0054/AndroidStudioProjects/melapp/app/src/main/res/layout/activity_login.xml" value="0.34148550724637683" />
@@ -23,28 +30,12 @@
         <entry key="..\:/Users/20191tiimi0054/AndroidStudioProjects/melapp/app/src/main/res/layout/login_activity.xml" value="0.32395833333333335" />
         <entry key="..\:/Users/20191tiimi0054/AndroidStudioProjects/melapp/app/src/main/res/menu/bottom_navigation_view_menu.xml" value="0.32447916666666665" />
         <entry key="..\:/Users/ferna/AndroidStudioProjects/melapp/app/src/main/res/drawable/edit_text_bg.xml" value="0.240625" />
-        <entry key="..\:/Users/ferna/AndroidStudioProjects/melapp/app/src/main/res/layout/activity_adote_sa.xml" value="0.22192028985507245" />
-        <entry key="..\:/Users/ferna/AndroidStudioProjects/melapp/app/src/main/res/layout/activity_cadastrar_animal.xml" value="0.25" />
-        <entry key="..\:/Users/ferna/AndroidStudioProjects/melapp/app/src/main/res/layout/activity_doe_sa.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/ferna/AndroidStudioProjects/melapp/app/src/main/res/layout/activity_faca_cadastro.xml" value="0.22447916666666667" />
-        <entry key="..\:/Users/ferna/AndroidStudioProjects/melapp/app/src/main/res/layout/activity_inf_gerais.xml" value="0.22" />
-        <entry key="..\:/Users/ferna/AndroidStudioProjects/melapp/app/src/main/res/layout/activity_inf_gerais_cachorro.xml" value="0.25" />
-        <entry key="..\:/Users/ferna/AndroidStudioProjects/melapp/app/src/main/res/layout/activity_inf_gerais_calopsita.xml" value="0.25" />
-        <entry key="..\:/Users/ferna/AndroidStudioProjects/melapp/app/src/main/res/layout/activity_inf_gerais_gato.xml" value="0.25" />
-        <entry key="..\:/Users/ferna/AndroidStudioProjects/melapp/app/src/main/res/layout/activity_inf_gerais_hamster.xml" value="0.25" />
         <entry key="..\:/Users/ferna/AndroidStudioProjects/melapp/app/src/main/res/layout/activity_login.xml" value="0.22" />
         <entry key="..\:/Users/ferna/AndroidStudioProjects/melapp/app/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="..\:/Users/ferna/AndroidStudioProjects/melapp/app/src/main/res/layout/activity_pet_ja_cadastrado.xml" value="0.21" />
-        <entry key="..\:/Users/ferna/AndroidStudioProjects/melapp/app/src/main/res/layout/activity_resultado_teste_auxiliar.xml" value="0.25" />
-        <entry key="..\:/Users/ferna/AndroidStudioProjects/melapp/app/src/main/res/layout/activity_sistema_adocao.xml" value="0.25" />
-        <entry key="..\:/Users/ferna/AndroidStudioProjects/melapp/app/src/main/res/layout/activity_teste_auxiliar.xml" value="0.33" />
-        <entry key="..\:/Users/ferna/AndroidStudioProjects/melapp/app/src/main/res/layout/activity_visualizar_foto.xml" value="0.22" />
-        <entry key="..\:/Users/ferna/AndroidStudioProjects/melapp/app/src/main/res/layout/dlg_filtros.xml" value="0.25" />
         <entry key="..\:/Users/ferna/AndroidStudioProjects/melapp/app/src/main/res/layout/faca_cadastro.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/ferna/AndroidStudioProjects/melapp/app/src/main/res/layout/faca_cadastro_activity.xml" value="0.25" />
-        <entry key="..\:/Users/ferna/AndroidStudioProjects/melapp/app/src/main/res/layout/item_adote.xml" value="0.25" />
-        <entry key="..\:/Users/ferna/AndroidStudioProjects/melapp/app/src/main/res/layout/item_petcadastrado.xml" value="0.25" />
-        <entry key="..\:/Users/ferna/AndroidStudioProjects/melapp/app/src/main/res/menu/bottom_navigation_view_menu.xml" value="0.25" />
+        <entry key="..\:/Users/ferna/AndroidStudioProjects/melapp/app/src/main/res/menu/bottom_navigation_view_menu.xml" value="0.5" />
       </map>
     </option>
   </component>

@@ -13,23 +13,23 @@
             android:name=".ResultadoTesteAuxiliarActivity"
             android:exported="true" />
         <activity
+            android:name=".DoeActivity"
+            android:exported="true" />
+        <activity
             android:name=".TesteAuxiliarActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AdoteActivity"
+            android:exported="true" />
+        <activity
+            android:name=".CadastrarPetActivity"
             android:exported="true" />
         <activity
             android:name=".VisualizarFotoActivity"
             android:exported="true" />
         <activity
-            android:name=".CadastrarAnimalActivity"
-            android:exported="true" />
-        <activity
             android:name=".PetJaCadastradoActivity"
             android:exported="true" />
-        <activity
-            android:name=".DoeSaActivity"
-            android:exported="true" />
-        <activity
-            android:name=".AdoteSaActivity"
-            android:exported="false" />
         <activity
             android:name=".SistemaAdocaoActivity"
             android:exported="false" />
