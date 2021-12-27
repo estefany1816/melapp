@@ -7,7 +7,23 @@
     android:background="#F2CCFF">
 
     <EditText
-        android:id="@+id/etEmailLogin"
+        android:id="@+id/etNomeCadastro"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/edit_text_bg"
+        android:ems="10"
+        android:hint="Insira seu nome Completo"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvLogoCadastro" />
+
+    <EditText
+        android:id="@+id/etNomeUsuarioCadastro"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -15,15 +31,15 @@
         android:layout_marginEnd="16dp"
         android:background="@drawable/edit_text_bg"
         android:ems="10"
-        android:hint="Insira seu Email"
-        android:inputType="textEmailAddress"
+        android:hint="Insira um nome de Usuário"
+        android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imvAnimalLogin" />
+        app:layout_constraintTop_toBottomOf="@+id/etNomeCadastro" />
 
     <EditText
-        android:id="@+id/etSenhaLogin"
+        android:id="@+id/etSenhaCadastro"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -36,66 +52,49 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etEmailLogin" />
+        app:layout_constraintTop_toBottomOf="@+id/etEmailCadastro" />
+
+    <EditText
+        android:id="@+id/etEmailCadastro"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/edit_text_bg"
+        android:ems="10"
+        android:hint="Insira seu Email"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etNomeUsuarioCadastro" />
 
     <Button
-        android:id="@+id/btnEntrarLogin"
-        android:layout_width="125dp"
-        android:layout_height="46dp"
+        android:id="@+id/btnCadastrarCadastro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
-        android:backgroundTint="#6200EE"
-        android:text="Entrar"
-        android:textColor="#FFFFFF"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/btnCadastrarLogin"
-        app:layout_constraintHorizontal_bias="0.35"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etSenhaLogin"
-        app:layout_constraintVertical_bias="0.627"
-        tools:text="Entrar" />
-
-    <Button
-        android:id="@+id/btnCadastrarLogin"
-        android:layout_width="125dp"
-        android:layout_height="46dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="48dp"
         android:layout_marginBottom="8dp"
         android:backgroundTint="#6200EE"
         android:text="Cadastrar"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etSenhaLogin"
-        app:layout_constraintVertical_bias="0.627" />
-
-    <ImageView
-        android:id="@+id/imvAnimalLogin"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvLogoLogin"
-        app:srcCompat="@drawable/mainphoto" />
+        app:layout_constraintTop_toBottomOf="@+id/etSenhaCadastro"
+        app:layout_constraintVertical_bias="0.593" />
 
     <TextView
-        android:id="@+id/tvLogoLogin"
+        android:id="@+id/tvLogoCadastro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="8dp"
-        android:text="MEL - Adoção e Cuidados"
+        android:layout_marginTop="8dp"
+        android:text="MEL - ADOÇÃO E CUIDADOS"
         android:textColor="#9C27B0"
-        android:textSize="24sp"
-        android:textStyle="bold"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

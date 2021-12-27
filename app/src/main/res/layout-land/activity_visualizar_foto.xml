@@ -5,32 +5,33 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#F2CCFF"
-    tools:context=".InfGeraisHamsterActivity">
+    tools:context=".VisualizarFotoActivity">
 
-    <TextView
-        android:id="@+id/tvHamsterLogoIG"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="Hamster"
-        android:textColor="#9C27B0"
-        android:textSize="24sp"
-        android:textStyle="bold"
+    <ImageView
+        android:id="@+id/imvFotoVisualizarAnimal"
+        android:layout_width="286dp"
+        android:layout_height="192dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/dog" />
 
     <TextView
-        android:id="@+id/tvConteudoHamsterIG"
+        android:id="@+id/tvVisualizarAnimal"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
-        android:hint="Espaço reservado para  as informações dos animais - Alimentação saudável;Alimentação Restringida e Higienização."
+        android:text="Gênero; Idade; Localização; Categoria; Raça; Informações Adicionais."
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvHamsterLogoIG" />
+        app:layout_constraintTop_toBottomOf="@+id/imvFotoVisualizarAnimal"
+        app:layout_constraintVertical_bias="1.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>

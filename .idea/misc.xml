@@ -30,12 +30,38 @@
         <entry key="..\:/Users/20191tiimi0054/AndroidStudioProjects/melapp/app/src/main/res/layout/login_activity.xml" value="0.32395833333333335" />
         <entry key="..\:/Users/20191tiimi0054/AndroidStudioProjects/melapp/app/src/main/res/menu/bottom_navigation_view_menu.xml" value="0.32447916666666665" />
         <entry key="..\:/Users/ferna/AndroidStudioProjects/melapp/app/src/main/res/drawable/edit_text_bg.xml" value="0.240625" />
+        <entry key="..\:/Users/ferna/AndroidStudioProjects/melapp/app/src/main/res/layout-land/activity_cadastrar_animal.xml" value="0.2" />
+        <entry key="..\:/Users/ferna/AndroidStudioProjects/melapp/app/src/main/res/layout-land/activity_doe_sa.xml" value="0.25" />
+        <entry key="..\:/Users/ferna/AndroidStudioProjects/melapp/app/src/main/res/layout-land/activity_inf_gerais.xml" value="0.22" />
+        <entry key="..\:/Users/ferna/AndroidStudioProjects/melapp/app/src/main/res/layout-land/activity_login.xml" value="0.22" />
+        <entry key="..\:/Users/ferna/AndroidStudioProjects/melapp/app/src/main/res/layout-land/activity_resultado_teste_auxiliar.xml" value="0.25" />
+        <entry key="..\:/Users/ferna/AndroidStudioProjects/melapp/app/src/main/res/layout-land/activity_sistema_adocao.xml" value="0.25" />
+        <entry key="..\:/Users/ferna/AndroidStudioProjects/melapp/app/src/main/res/layout-land/activity_teste_auxiliar.xml" value="0.33" />
+        <entry key="..\:/Users/ferna/AndroidStudioProjects/melapp/app/src/main/res/layout-land/activity_visualizar_foto.xml" value="0.22" />
+        <entry key="..\:/Users/ferna/AndroidStudioProjects/melapp/app/src/main/res/layout-land/faca_cadastro_activity.xml" value="0.1900352733686067" />
+        <entry key="..\:/Users/ferna/AndroidStudioProjects/melapp/app/src/main/res/layout/activity_adote_sa.xml" value="0.25" />
+        <entry key="..\:/Users/ferna/AndroidStudioProjects/melapp/app/src/main/res/layout/activity_cadastrar_animal.xml" value="0.25" />
+        <entry key="..\:/Users/ferna/AndroidStudioProjects/melapp/app/src/main/res/layout/activity_doe_sa.xml" value="0.25" />
         <entry key="..\:/Users/ferna/AndroidStudioProjects/melapp/app/src/main/res/layout/activity_faca_cadastro.xml" value="0.22447916666666667" />
-        <entry key="..\:/Users/ferna/AndroidStudioProjects/melapp/app/src/main/res/layout/activity_login.xml" value="0.22" />
+        <entry key="..\:/Users/ferna/AndroidStudioProjects/melapp/app/src/main/res/layout/activity_inf_gerais.xml" value="0.33" />
+        <entry key="..\:/Users/ferna/AndroidStudioProjects/melapp/app/src/main/res/layout/activity_inf_gerais_animal.xml" value="0.22" />
+        <entry key="..\:/Users/ferna/AndroidStudioProjects/melapp/app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="..\:/Users/ferna/AndroidStudioProjects/melapp/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/ferna/AndroidStudioProjects/melapp/app/src/main/res/layout/activity_pet_ja_cadastrado.xml" value="0.25" />
+        <entry key="..\:/Users/ferna/AndroidStudioProjects/melapp/app/src/main/res/layout/activity_resultado_teste_auxiliar.xml" value="0.33" />
+        <entry key="..\:/Users/ferna/AndroidStudioProjects/melapp/app/src/main/res/layout/activity_sistema_adocao.xml" value="0.33" />
+        <entry key="..\:/Users/ferna/AndroidStudioProjects/melapp/app/src/main/res/layout/activity_teste_auxiliar.xml" value="0.25" />
+        <entry key="..\:/Users/ferna/AndroidStudioProjects/melapp/app/src/main/res/layout/activity_visualizar_foto.xml" value="0.33" />
+        <entry key="..\:/Users/ferna/AndroidStudioProjects/melapp/app/src/main/res/layout/dlg_filtros.xml" value="0.33" />
         <entry key="..\:/Users/ferna/AndroidStudioProjects/melapp/app/src/main/res/layout/faca_cadastro.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/ferna/AndroidStudioProjects/melapp/app/src/main/res/layout/faca_cadastro_activity.xml" value="0.25" />
-        <entry key="..\:/Users/ferna/AndroidStudioProjects/melapp/app/src/main/res/menu/bottom_navigation_view_menu.xml" value="0.5" />
+        <entry key="..\:/Users/ferna/AndroidStudioProjects/melapp/app/src/main/res/layout/item_adote.xml" value="0.33" />
+        <entry key="..\:/Users/ferna/AndroidStudioProjects/melapp/app/src/main/res/layout/item_animal.xml" value="0.33" />
+        <entry key="..\:/Users/ferna/AndroidStudioProjects/melapp/app/src/main/res/layout/item_animal_adote.xml" value="0.33" />
+        <entry key="..\:/Users/ferna/AndroidStudioProjects/melapp/app/src/main/res/layout/item_pet_ja_cadastrado.xml" value="0.33" />
+        <entry key="..\:/Users/ferna/AndroidStudioProjects/melapp/app/src/main/res/layout/item_petcadastrado.xml" value="0.5" />
+        <entry key="..\:/Users/ferna/AndroidStudioProjects/melapp/app/src/main/res/menu/bottom_navigation_view_filtro.xml" value="0.25" />
+        <entry key="..\:/Users/ferna/AndroidStudioProjects/melapp/app/src/main/res/menu/bottom_navigation_view_menu.xml" value="0.25" />
       </map>
     </option>
   </component>

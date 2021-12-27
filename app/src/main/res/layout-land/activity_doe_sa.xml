@@ -27,10 +27,9 @@
         android:layout_width="300dp"
         android:layout_height="250dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="24dp"
-        android:layout_marginEnd="8dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvLogoAdote"
         app:srcCompat="@drawable/calopsitaedog" />
@@ -40,14 +39,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="80dp"
         android:layout_marginEnd="8dp"
         android:backgroundTint="#6200EE"
         android:text="Cadastre seu bichinho"
         android:textColor="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imvFotoDoe" />
+        app:layout_constraintHorizontal_bias="0.53"
+        app:layout_constraintStart_toEndOf="@+id/imvFotoDoe"
+        app:layout_constraintTop_toBottomOf="@+id/tvLogoAdote" />
 
     <Button
         android:id="@+id/btnAnimalCadastrado"
@@ -62,8 +62,8 @@
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.549"
+        app:layout_constraintStart_toEndOf="@+id/imvFotoDoe"
         app:layout_constraintTop_toBottomOf="@+id/btnCadastrarAnimal"
-        app:layout_constraintVertical_bias="0.14" />
+        app:layout_constraintVertical_bias="0.189" />
 </androidx.constraintlayout.widget.ConstraintLayout>

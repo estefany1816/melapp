@@ -51,10 +51,10 @@
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/btnCadastrarLogin"
-        app:layout_constraintHorizontal_bias="0.35"
+        app:layout_constraintHorizontal_bias="0.43"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etSenhaLogin"
-        app:layout_constraintVertical_bias="0.627"
+        app:layout_constraintVertical_bias="0.714"
         tools:text="Entrar" />
 
     <Button
@@ -62,7 +62,7 @@
         android:layout_width="125dp"
         android:layout_height="46dp"
         android:layout_marginTop="8dp"
-        android:layout_marginEnd="48dp"
+        android:layout_marginEnd="144dp"
         android:layout_marginBottom="8dp"
         android:backgroundTint="#6200EE"
         android:text="Cadastrar"
@@ -70,17 +70,16 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etSenhaLogin"
-        app:layout_constraintVertical_bias="0.627" />
+        app:layout_constraintVertical_bias="0.714" />
 
     <ImageView
         android:id="@+id/imvAnimalLogin"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvLogoLogin"
         app:srcCompat="@drawable/mainphoto" />

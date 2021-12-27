@@ -1,7 +1,7 @@
 package com.example.melapp;
 
 public class Item {
-    int photo;
-    String categoria;
-    String desc;
+    static int photo;
+    static String categoria;
+    static String desc;
 }

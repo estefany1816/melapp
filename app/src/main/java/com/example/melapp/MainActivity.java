@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         bottomNavigationView  = findViewById(R.id.btnViewIcones);
-        //Estabelecimento dos critérios, isto é, o que acontece quando clicado nos botões de seleção
+
         bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
 
             @Override

@@ -12,9 +12,7 @@
         android:layout_width="200dp"
         android:layout_height="200dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/hamster" />
@@ -23,66 +21,72 @@
         android:id="@+id/spinner_CategoriaCadastrarPet"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="92dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="16dp"
         android:background="#FFFFFF"
         android:entries="@array/dlg_filtros_categoria"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imgbtnInserirFotoCadastrarPet" />
+        app:layout_constraintStart_toEndOf="@+id/imvFotoAnimalCadastrar"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Spinner
         android:id="@+id/spinner_IdadeCadastrarPet"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
         android:background="#FFFFFF"
         android:entries="@array/dlg_filtros_idade"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.188"
+        app:layout_constraintBottom_toTopOf="@+id/etRacaCadastrarPet"
         app:layout_constraintStart_toEndOf="@+id/spinner_CategoriaCadastrarPet"
-        app:layout_constraintTop_toBottomOf="@+id/imgbtnInserirFotoCadastrarPet" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
     <Spinner
         android:id="@+id/spinner_GeneroCadastrarPet"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
         android:background="#FFFFFF"
         android:entries="@array/dlg_filtros_genero"
+        app:layout_constraintBottom_toTopOf="@+id/etRacaCadastrarPet"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.098"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/spinner_LocalizacaoCadastrarPet"
-        app:layout_constraintTop_toBottomOf="@+id/spinner_IdadeCadastrarPet" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
     <Spinner
         android:id="@+id/spinner_LocalizacaoCadastrarPet"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="92dp"
-        android:layout_marginTop="26dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
         android:background="#FFFFFF"
         android:entries="@array/dlg_filtros_localizacao"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/spinner_CategoriaCadastrarPet" />
+        app:layout_constraintBottom_toTopOf="@+id/etRacaCadastrarPet"
+        app:layout_constraintStart_toEndOf="@+id/spinner_IdadeCadastrarPet"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
     <EditText
         android:id="@+id/etRacaCadastrarPet"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="32dp"
-        android:layout_marginEnd="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
         android:ems="10"
         android:hint="Raça"
         android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/etmInfoAdicionaisCadastrarPet"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.452"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/spinner_LocalizacaoCadastrarPet" />
+        app:layout_constraintStart_toEndOf="@+id/imvFotoAnimalCadastrar"
+        app:layout_constraintTop_toBottomOf="@+id/spinner_CategoriaCadastrarPet" />
 
     <Button
         android:id="@+id/btnCadastrarPet"
@@ -90,39 +94,41 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginBottom="24dp"
+        android:layout_marginBottom="16dp"
         android:backgroundTint="#6200EE"
         android:text="Cadastrar"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.562"
+        app:layout_constraintStart_toEndOf="@+id/imgbtnInserirFotoCadastrarPet" />
 
     <EditText
         android:id="@+id/etmInfoAdicionaisCadastrarPet"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginStart="16dp"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:layout_marginEnd="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
         android:ems="10"
         android:gravity="start|top"
         android:hint="Informações Adicionais"
         android:inputType="textMultiLine"
         app:layout_constraintBottom_toTopOf="@+id/btnCadastrarPet"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imvFotoAnimalCadastrar"
         app:layout_constraintTop_toBottomOf="@+id/etRacaCadastrarPet" />
 
     <ImageButton
         android:id="@+id/imgbtnInserirFotoCadastrarPet"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
+        android:layout_marginStart="76dp"
         android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#6200EE"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imvFotoAnimalCadastrar"
         app:srcCompat="@android:drawable/ic_menu_camera" />

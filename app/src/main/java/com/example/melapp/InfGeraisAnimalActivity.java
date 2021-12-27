@@ -4,11 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class InfGeraisGatoActivity extends AppCompatActivity {
+public class InfGeraisAnimalActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_inf_gerais_gato);
+        setContentView(R.layout.activity_inf_gerais_animal);
     }
 }

@@ -34,16 +34,7 @@
             android:name=".SistemaAdocaoActivity"
             android:exported="false" />
         <activity
-            android:name=".InfGeraisHamsterActivity"
-            android:exported="false" />
-        <activity
-            android:name=".InfGeraisCalopsitaActivity"
-            android:exported="false" />
-        <activity
-            android:name=".InfGeraisGatoActivity"
-            android:exported="false" />
-        <activity
-            android:name=".InfGeraisCachorroActivity"
+            android:name=".InfGeraisAnimalActivity"
             android:exported="false" />
         <activity
             android:name=".InfGeraisActivity"
